@@ -1,0 +1,11 @@
+<package>
+  <description brief="Odometry">
+    This tutorial provides an example of publishing odometry information for the navigation stack. It covers both publishing the nav_msgs/Odometry message over ROS, and a transform from a "odom" coordinate frame to a "base_link" coordinate frame over tf.
+  </description>
+  <author>ROS tutorials</author>
+  <license>GPL v3</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://wiki.ros.org/navigation/Tutorials/RobotSetup/Odom</url>
+  <depend package="tf"/>
+  <depend package="nav_msgs"/>
+</package>
